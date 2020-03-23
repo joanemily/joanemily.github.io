@@ -17,6 +17,12 @@ text-align: center;
 font-family: 'Times New Roman', Times, serif;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
 #intro {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -30,13 +36,31 @@ font-family: 'Times New Roman', Times, serif;
 
 #intro p {
     grid-area: description;
-    color: white;
     padding: 20px;
-    font-family: "Book Antiqua", "Palatino", serif;
     background-color: slategrey;
     margin: 20px;
 }
 
-text {
-    opacity: 100%;
+p {
+ color: white;
+ font-family: "Book Antiqua", "Palatino", serif;
 }
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "text img";
+}
+
+section img {
+    grid-area: img;
+    max-width: 150%;
+}
+
+.text {
+    grid-area: text;
+background-color: slategrey;
+}
+
+
+
