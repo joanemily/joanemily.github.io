@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+    background-color: darkslateblue;
+  }
+  
+
+
+h1 {
+color: white;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "photo description";
+}
+
+#selfportrait {
+    grid-area: photo;
+    max-width: 110%;
+}
+
+#intro p {
+    grid-area: description;
+    color: white;
+    padding: 20px;
+    font-family: "Book Antiqua", "Palatino", serif;
+    background-color: slategrey;
+    margin: 20px;
+}
+
+text {
+    opacity: 100%;
+}
