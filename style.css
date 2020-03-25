@@ -294,15 +294,15 @@ h1 {
 }
 
 #porfolio #vending {
-  background: url("https://www.github.com/joanemily/joanemily.github.io/tree/master/img/vendingmachine.jpg")
+  background: url("../img/vendingmachine.jpg")
 }
 
 #portfolio #parks {
-  background: url("https://www.github.com/joanemily/joanemily.github.io/tree/master/img/nationalparks.jpg");
+  background: url("../img/nationalparks.jpg");
 }
 
 #portfolio #parks {
-  background: url("https://www.github.com/joanemily/joanemily.github.io/tree/master/img/nationalparks2.jpg");
+  background: url("../img/nationalparks2.jpg");
 }
 
 .portfolio-card h1 p {
