@@ -1,85 +1,81 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <title> Joan Crookston Portfolio Page </title>
-    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-    <div class="topnav">
-        <h1> Joan Crookston Portfolio </h1>
-
-        <a class="active" href="#intro">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#work">Work History</a>
-        <a href="#education">Education</a>
-        <a href="#referrals">Referrals</a>
+  <section class="section">
+    <div class="container brackets">
+      <a>HOME</a>
+      <a href="#intro">INTRODUCTION</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a>ABOUT</a>
+      <a>CONTACT</a>
     </div>
-
+  </section>
+  <section class="section">
+    <h1 class="title">INTRODUCTION</h1>
     <div id="intro">
-        <img id="selfportrait" src="img/selfportrait.jpg" alt="selfportrait" />
-        <p> <text>As an artist, my mission was to add depth to everyday connections and encounters. As a programmer, it
-                remains unchanged. Whether in photography or EMS, I regularly took notice of details that are often
+      <div id="body">
+        <div class="container card">
+          <div class="card__img"><img src="img/selfportrait.jpg" alt="selfportrait"></div>
+          <div class="card__profile">
+            <div class="title">
+              <h1>Joan Crookston</h1>
+              <p>.NET Ninja Warrior</p>
+            </div>
+            <div class="content">
+              <small>As an artist, my mission was to add depth to everyday connections and encounters. As a programmer,
+                it remains unchanged. Whether in photography or EMS, I regularly took notice of details that are often
                 overlooked by others - a skill that I carried with me into my work in administration. At C.C. Supply, I
                 noticed that the system for scheduling and tracking deliveries was unreliable and chaotic. I updated it
                 to streamline the information and make sure that it was available to the drivers even when I wouldn't be
                 there. At Western Reserve Hospital Gastroenterology, I helped implement a process that assisted
                 Pharmaceutical representatives when ordering lunches and saved them over hundreds of dollars while
-                preventing food waste.</text>
-            <br>
-            <br>
-            <text>I have always prided myself on being clever and resourceful in working with and around systems to help
+                preventing food waste.
+                <br>
+                <br>
+                I have always prided myself on being clever and resourceful in working with and around systems to help
                 companies save money, capture efficiencies, and eliminate confusion. Currently, I am studying .NET at
                 Tech Elevator and I'm energized by the vast amount of new opportunities in the tech field that will
-                allow me to reinforce my personal mission of serving others while challenging myself.</text></p>
+                allow me to reinforce my personal mission of serving others while challenging myself.</small>
+            </div>
+          </div>
+          <div class="card__links">
+            <div class="link"><a href="#"><i class="fab fa-twitter"></i></a></div>
+            <div class="link"><a href="#"><i class="fab fa-github"></i></a></div>
+            <div class="link"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+            <div class="link"><a href="#"><i class="fa fa-envelope"></i></a></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <br>
-    <div id="projects">
-        <h2>Projects</h2>
-        <a href="https://github.com/joanemily/VendingMachine">
-            <section id="vending">
-                <div class="text">
-                    <h3>Vending Machine Console App</h3>
-                    <p> During our first capstone, created a console app in a pairs exercise that built a virtual
-                        vending
-                        machine. Developed in C# using OOP fundamentals using File I/O. </p>
-                </div>
-                <img src="img/vendingmachine.jpg" alt="vendingmachine">
-            </section>
-        </a>
-        <br>
-        <a href="https://github.com/joanemily/NationalParks">
-            <section id="nationalparks">
-                <div class="text">
-                    <h3>National Parks Reservation App</h3>
-                    <p> Our second capstone was creating a National Parks reservation console application. This was a
-                        pairs
-                        exercise in which we practiced new skills in Microsoft SQL Server; ran integration tests. </p>
-                </div>
-                <img src="img/nationalparks.jpg" alt="nationalparks">
-            </section>
-        </a>
-        <br>
-        <a href="https://github.com/joanemily/NationalParks2">
-            <section id="nationalparks2">
-                <div class="text">
-                    <h3>National Parks Web App</h3>
-                    <p> For our third capstone, we built on the National Parks application. Also a pairs exercise, we
-                        had
-                        the opportunity to utilize what we studied about MVC and design. We developed and designed a
-                        dynamic
-                        web application with ASP.NET that implemented MVC framework using C#, SQL Server integration,
-                        HTML
-                        and CSS.</p>
-                </div>
-                <img src="img/nationalparks2.jpg" alt="nationalparks2">
-            </section>
-        </a>
+  </section>
+  <section class="section">
+    <h1 class="title">PORTFOLIO</h1>
+    <div id="portfolio">
+      <a href="https://github.com/joanemily/VendingMachine" class="portfolio-card"
+        style="background-image: url(img/vendingmachine.jpg)">
+        <h1>Vending Machine</h1>
+        <p>Tech Elevator Capstone 1</p>
+        <div class="more"><span>>>></span></div>
+      </a>
+      <a href="https://github.com/joanemily/NationalParks" class="portfolio-card"
+        style="background-image: url(img/nationalparks.jpg)">
+        <h1>National Parks Console App</h1>
+        <p>Tech Elevator Capstone 2</p>
+        <div class="more"><span>>>></span></div>
+      </a>
+      <a href="https://github.com/joanemily/NationalParks2" class="portfolio-card"
+        style="background-image: url(img/nationalparks2.jpg)">
+        <h1>National Parks Web App</h1>
+        <p>Tech Elevator Capstone 1</p>
+        <div class="more"><span>>>></span></div>
+      </a>
     </div>
 
-
+  </section>
 </body>
 
 </html>
