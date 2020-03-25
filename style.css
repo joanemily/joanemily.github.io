@@ -294,15 +294,15 @@ h1 {
 }
 
 #porfolio #vending {
-  background: url("../img/vendingmachine.jpg")
+  background-color: slategrey;
 }
 
 #portfolio #parks {
-  background: url("../img/nationalparks.jpg");
+  background-color: slategrey;
 }
 
-#portfolio #parks {
-  background: url("../img/nationalparks2.jpg");
+#portfolio #parks2 {
+  background-color: slategrey;
 }
 
 .portfolio-card h1 p {
