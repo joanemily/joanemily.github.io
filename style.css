@@ -292,6 +292,19 @@ h1 {
   display: inline-block;
   margin: 10px;
 }
+
+#porfolio #vending {
+  background: url("https://www.github.com/joanemily/joanemily.github.io/tree/master/img/vendingmachine.jpg")
+}
+
+#portfolio #parks {
+  background: url("https://www.github.com/joanemily/joanemily.github.io/tree/master/img/nationalparks.jpg");
+}
+
+#portfolio #parks {
+  background: url("https://www.github.com/joanemily/joanemily.github.io/tree/master/img/nationalparks2.jpg");
+}
+
 .portfolio-card h1 p {
     font-family: Raleway;
     font-weight: 500;
