@@ -342,3 +342,29 @@ a img {
 
   /* About Me Section */
   
+
+  /* Contact Section */
+
+  #contact h3 {
+    font: Raleway;
+    color: black;
+  }
+
+  #body i{
+    justify-content: center;
+    size: large;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #contact div {
+    width: 30%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    background-position: top center;
+    margin: 20px;
+  }
