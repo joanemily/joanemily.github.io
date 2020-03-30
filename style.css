@@ -345,14 +345,11 @@ a img {
 
   /* Contact Section */
 
-  #contact h3 {
-    font: Raleway;
-    color: black;
-  }
 
-  #body i{
-    justify-content: center;
-    size: large;
+  i{
+    font-size: large;  
+    box-shadow: 0 0 10px #ccc;
+    margin: 2em;
   }
 
   #contact {
@@ -360,11 +357,3 @@ a img {
     flex-direction: row;
   }
 
-  #contact div {
-    width: 30%;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #ccc;
-    background-position: top center;
-    margin: 20px;
-  }
