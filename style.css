@@ -77,12 +77,6 @@ h2 {
 
 .project {
   padding-top: 15px;
-  display: flex;
-  flex-direction: row;
-  max-width: 500px;
-}
-
-video {
   max-width: 500px;
 }
 
