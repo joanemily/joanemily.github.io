@@ -79,7 +79,7 @@ h2 {
   padding-top: 15px;
   display: flex;
   flex-direction: row;
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
