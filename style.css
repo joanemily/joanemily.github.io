@@ -81,6 +81,11 @@ h2 {
   flex-direction: row;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 #contact {
   font: 10px Raleway;
   color: lightblue;
