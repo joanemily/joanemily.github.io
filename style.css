@@ -120,3 +120,7 @@ table {
   font: 10px Raleway;
   color: lightblue;
 }
+
+a {
+  text-decoration: none;
+}
