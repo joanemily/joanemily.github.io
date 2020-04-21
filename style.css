@@ -79,6 +79,8 @@ h2 {
 .project {
   padding-top: 15px;
   max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 video {
@@ -86,7 +88,7 @@ video {
   height: auto !important;
 }
 
-h5 {
+#projects button {
   color: lightblue;
   font-size: large;
 }
