@@ -81,6 +81,11 @@ h2 {
   max-width: 500px;
 }
 
+video {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
 #contact {
   font: 10px Raleway;
   color: lightblue;
