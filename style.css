@@ -80,12 +80,10 @@ h2 {
   display: flex;
   flex-direction: row;
   max-width: 500px;
-  height: auto;
 }
 
 video {
   max-width: 500px;
-  height: auto;
 }
 
 #contact {
