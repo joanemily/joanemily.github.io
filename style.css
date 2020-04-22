@@ -108,6 +108,11 @@ video {
   opacity: 1;
 }
 
+tr {
+  justify-content: center;
+  align-items: center;
+}
+
 #contact {
   font: 10px Raleway;
   color: lightblue;
